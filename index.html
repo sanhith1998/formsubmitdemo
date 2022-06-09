@@ -11,21 +11,26 @@
     <div class="container mt-5">
         <h1>Contact Me</h1>
         <form class="row g-3" action="https://formsubmit.co/fb5e7f3dfb036bd2ad3af9cd6b0aa488" method="POST">
-      <div class="col-md-6">
+            
+                        <!-- Disable Captcha -->
+            <input type="hidden" name="_captcha" value="false">
+
+            <input type="hidden" name="_next" value="https://github.com/sanhith1998/formsubmitdemo/success.html">
+            <div class="col-md-6">
           <label for="FirstName" class="form-label">First-Name</label>
-          <input type="text" class="form-control" id="FirstName" name="fname" required>
+          <input type="text" class="form-control" id="FirstName" name="First&nbsp;Name" required>
       </div>
       <div class="col-md-6">
         <label for="lastName" class="form-label">Last-Name</label>
-        <input type="text" class="form-control" id="lastName" name="lname" required>
+        <input type="text" class="form-control" id="lastName" name="Last&nbsp;Name" required>
       </div>
 
       <div class="col-md-6"><label for="pno" class="form-label">Phone Number</label>
-        <input type="text" class="form-control" name="pono" maxlength="10" id="pno" required placeholder="+91"></div>
+        <input type="text" class="form-control" name="Phone&nbsp;No" maxlength="10" id="pno" required></div>
         
     <div class="col-md-6">
     <label for="email" class="form-label">Email Id</label>
-        <input type="email" class="form-control" name="email" id="email" required>
+        <input type="email" class="form-control" name="Email" id="email" required>
     </div>
     <br>
     <div class="col-md-12">
